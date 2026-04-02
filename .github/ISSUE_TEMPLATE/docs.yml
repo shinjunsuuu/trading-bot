@@ -1,0 +1,26 @@
+name: "📝 Docs"
+description: "문서 관련 작업"
+title: "[docs] "
+labels: ["docs"]
+body:
+  - type: textarea
+    attributes:
+      label: "📄 설명"
+      description: "문서 작업의 목적과 변경 내용을 작성해 주세요."
+      placeholder: "어떤 문서를 왜 수정하거나 추가하는지 자세히 적어주세요."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "✅ 작업할 내용"
+      description: "문서 작업 항목을 체크박스 형태로 작성해주세요."
+      placeholder: |
+        - [ ] 대상 문서 확인
+        - [ ] 문서 수정 또는 추가
+        - [ ] 링크 및 내용 검수
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "🙋🏻 참고 자료"
+      description: "참고 문서, 링크, 관련 이슈가 있다면 작성해 주세요."

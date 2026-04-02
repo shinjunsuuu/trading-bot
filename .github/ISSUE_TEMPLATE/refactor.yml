@@ -1,0 +1,26 @@
+name: "🛠 Refactor"
+description: "리팩토링"
+title: "[refactor] "
+labels: ["refactor"]
+body:
+  - type: textarea
+    attributes:
+      label: "📄 설명"
+      description: "리팩토링이 필요한 이유를 작성해 주세요."
+      placeholder: "현재 구조의 문제점과 개선 방향을 적어주세요."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "✅ 작업할 내용"
+      description: "진행할 리팩토링 작업을 체크박스 형태로 작성해주세요."
+      placeholder: |
+        - [ ] 대상 코드 범위 확인
+        - [ ] 구조 개선
+        - [ ] 회귀 테스트 확인
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "🙋🏻 참고 자료"
+      description: "관련 코드, 문서, 참고 링크가 있다면 작성해 주세요."
